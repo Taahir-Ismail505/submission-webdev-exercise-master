@@ -1,0 +1,19 @@
+body{
+  	margin-bottom: 20px;
+	margin-top: 20px;
+  	margin-right: 20px;
+  	margin-left: 20px;
+	background-color: #FDFDFD;
+	font: sans-serif;
+}
+
+form{
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #F2F2F2;
+}
+
+input{
+
+}
+

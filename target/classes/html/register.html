@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <title>New User Registration</title>
+</head>
+<script> 
+	function requirements() {
+		document.getElementsByTagName('firstname').focus();
+	}
+</script>
+<body onload="requirements">
+
+<h1>New User Registration</h1>
+<form>
+  <label for="firstname">First name:</label><br>
+  <input required type="text" id="firstname" name="firstname" value="" autofocus="firstname"><br>
+  <br>
+  <label for="lastname">Last name:</label><br>
+  <input required  type="text" id="lastname" name="lastname" value="">
+  <br>
+  <br>
+  <label for="email"></label>Email:<br>
+  <input required type="email" id="email" name="email" value="">
+  <br>
+  <br>
+  <label for="password"></label>Password:<br>
+  <input required type="password" id="password" name="password" value="" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]$" minlength="8">
+  <br>
+  <br>
+  <label for="confirmpassword"></label>Confirm Password:<br>
+  <input required="" type="password" id="confirmpassword" name="confirmpassword" value="">
+  <br>
+  <br>
+  <input id="submit" type="submit" value="Register">
+</form>
+<a href="./ts_and_cs.html">Terms and Conditions</a>
+
+
+
+</body>
+</html>
